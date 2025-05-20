@@ -10274,10 +10274,6 @@ with pkgs;
     autoreconfHook = buildPackages.autoreconfHook269;
   };
 
-  clickhouse = callPackage ../servers/clickhouse {
-    llvmPackages = llvmPackages_16;
-  };
-
   clickhouse-cli = with python3Packages; toPythonApplication clickhouse-cli;
 
   couchdb3 = callPackage ../servers/http/couchdb/3.nix { };
@@ -11204,6 +11200,8 @@ with pkgs;
   linux_6_12_hardened = linuxKernel.kernels.linux_6_12_hardened;
   linuxPackages_6_13_hardened = linuxKernel.packages.linux_6_13_hardened;
   linux_6_13_hardened = linuxKernel.kernels.linux_6_13_hardened;
+  linuxPackages_6_14_hardened = linuxKernel.packages.linux_6_14_hardened;
+  linux_6_14_hardened = linuxKernel.kernels.linux_6_14_hardened;
 
   # GNU Linux-libre kernels
   linuxPackages-libre = linuxKernel.packages.linux_libre;
@@ -14934,15 +14932,6 @@ with pkgs;
   cutechess = qt5.callPackage ../games/cutechess { };
 
   cutemaze = qt6Packages.callPackage ../games/cutemaze { };
-
-  deliantra-server = callPackage ../games/deliantra/server.nix {
-    # perl538 defines 'struct object' in sv.h. many conflicts result
-    perl = perl540;
-    perlPackages = perl540Packages;
-  };
-  deliantra-arch = callPackage ../games/deliantra/arch.nix { };
-  deliantra-maps = callPackage ../games/deliantra/maps.nix { };
-  deliantra-data = callPackage ../games/deliantra/data.nix { };
 
   ddnet-server = ddnet.override { buildClient = false; };
 
