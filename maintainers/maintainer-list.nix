@@ -2135,6 +2135,11 @@
     githubId = 56650223;
     name = "Artturi N";
   };
+  artur-sannikov = {
+    name = "Artur Sannikov";
+    github = "artur-sannikov";
+    githubId = 40318410;
+  };
   arturcygan = {
     email = "arczicygan@gmail.com";
     github = "arcz";
@@ -7436,6 +7441,11 @@
     githubId = 5085029;
     name = "Emanuele Peruffo";
   };
+  epireyn = {
+    github = "epireyn";
+    githubId = 48213068;
+    name = "Edgar Pireyn";
+  };
   equirosa = {
     email = "eduardo@eduardoquiros.com";
     github = "equirosa";
@@ -11481,6 +11491,12 @@
     github = "jesseDMoore1994";
     githubId = 30251156;
     name = "Jesse Moore";
+  };
+  jethair = {
+    email = "jethair@duck.com";
+    github = "JetHair";
+    githubId = 106916147;
+    name = "JetHair";
   };
   jethro = {
     email = "jethrokuan95@gmail.com";
@@ -16823,12 +16839,6 @@
     github = "mtpham99";
     githubId = 72663763;
     keys = [ { fingerprint = "DB3E A12D B291 594A 79C5 F6B3 10AB 6868 37F6 FA3F"; } ];
-  };
-  mtreca = {
-    email = "maxime.treca@gmail.com";
-    github = "mtreca";
-    githubId = 16440823;
-    name = "Maxime Tréca";
   };
   mtreskin = {
     email = "zerthurd@gmail.com";
@@ -23992,6 +24002,12 @@
     githubId = 40228615;
     name = "Taha Yassine";
   };
+  tahlonbrahic = {
+    email = "tahlonbrahic@proton.me";
+    github = "tahlonbrahic";
+    githubId = 104690672;
+    name = "Tahlon Brahic";
+  };
   taikx4 = {
     email = "taikx4@taikx4szlaj2rsdupcwabg35inbny4jk322ngeb7qwbbhd5i55nf5yyd.onion";
     github = "taikx4";
@@ -24620,6 +24636,12 @@
     githubId = 6579555;
     name = "Jeroen Jetten";
   };
+  thetaoofsu = {
+    email = "TheTaoOfSu@protonmail.com";
+    github = "TheTaoOfSu";
+    githubId = 45526311;
+    name = "TheTaoOfSu";
+  };
   theuni = {
     email = "ct@flyingcircus.io";
     github = "ctheune";
@@ -25148,6 +25170,12 @@
     email = "git@thym.at";
     github = "totoroot";
     githubId = 39650930;
+  };
+  tournev = {
+    name = "Vincent Tourneur";
+    email = "vincent@pimoid.fr";
+    github = "vtourneur";
+    githubId = 48284424;
   };
   ToxicFrog = {
     email = "toxicfrog@ancilla.ca";
